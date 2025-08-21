@@ -1,0 +1,15 @@
+BİLGİ
+
+Hazır bir şablon kullanarak daha profesyonel bir Hukuk Bürosu Web Sitesi hazırladım.
+
+Görüntü ayarlarında ekran yakınlığımı %110 olarak kullandım. Daha az veya fazla yakınlık durumunda ekran farklı görünebiliyor.
+
+Kodları inceledim ve düzenledim; siteyi olabildiğince profesyonel ve işlevsel hale getirdim.
+
+Birden fazla HTML sayfası vardı, bunları tek sayfa (one-page) yapısına dönüştürdüm.
+
+Üst menüdeki linklerin yeni sayfa açmaması için ayarlama yaptım. Linkler, kullanıcıyı sayfa içinde ilgili başlığa kaydırmalı geçiş ile yönlendiriyor.
+
+Site içeriklerindeki metinleri ChatGPT desteğiyle düzenledim.
+
+Web sitesine eklenen görselleri telif hakkı olmayan (royalty-free) kaynaklardan bulup ekledim.
