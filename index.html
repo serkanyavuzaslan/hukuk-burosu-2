@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div class="container-fluid bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -52,40 +52,44 @@
 
 
         <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
+        <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <!-- <h1 class="text-primary m-0" style=" font-family: 'Montserrat', sans-serif;">Yavuzaslan Hukuk</h1> -->
-                    <img src="img/logo.png" style="width: 150px; height: 190px;" alt="Logo">
+                    <img src="img/logo.png" style="width: 100px; height: 200px;" alt="Logo" >
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
-                        <a href="#services" class="nav-item nav-link">Hizmetlerimiz</a>
+                        <a href="#main" class="nav-item nav-link active">Anasayfa</a>
+                        <a href="#services" class="nav-item nav-link">HİZMETLERİMİZ</a>
                         <a href="#about" class="nav-item nav-link">Hakkımızda</a>
-                        <a href="#team" class="nav-item nav-link">Ekibimiz</a>
-                        <a href="#contact" class="nav-item nav-link">İletişim</a>
+                        <a href="#team" class="nav-item nav-link">EKİBİMİZ</a>
+                        <a href="#blog" class="nav-item nav-link">BLOG</a>
+                        <a href="#contact" class="nav-item nav-link">İLETİŞİM</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Randevu Alın</a>
+                    <a href="" class="btn btn-gold py-2 px-4">Randevu Alın<i class="fa-solid fa-phone-volume" style="font-size: 15px; margin-left: 3px;"></i></a>
+
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
+            <div class="container-fluid py-5 bg-dark hero-header mb-5" id="main">
+                <div class="container-fluid my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft"
-                                style=" font-family: 'Montserrat', sans-serif;">Güvenle Hukuki <br> Çözümler</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">"Yavuzaslan Hukuk Bürosu olarak her türlü hukuki ihtiyacınızda yanınızdayız. Profesyonel ve deneyimli ekibimizle en doğru çözümleri sunuyoruz. Müşteri memnuniyeti ve güven, bizim için her zaman önceliktir.”</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Daha Fazlası İçin</a>
+                                style=" font-family: 'Montserrat', sans-serif;">Güvenle <br>Hukuki <br> Çözümler</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">"Yavuzaslan Hukuk Bürosu olarak her türlü hukuki ihtiyacınızda yanınızdayız. Profesyonel ve deneyimli ekibimizle en doğru çözümleri sunuyoruz. Müşteri memnuniyeti ve güven, bizim için her zaman önceliktir. Her davada titizlikle çalışıyor, kişiye özel stratejiler geliştiriyoruz. Hukuki süreçlerin karmaşık olabileceğini biliyor ve sizi adım adım bilgilendiriyoruz. Amacımız, haklarınızı korumak ve en hızlı şekilde etkili çözümler sağlamaktır."</p>
+                            <a href="" class="btn btn-gold py-2 px-4" style="background-color:#DAA520; border:none; color:#fff;">DAHA FAZLASI İÇİN<i class="fa-solid fa-angle-right"></i></a></div>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                            
                         </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -93,13 +97,13 @@
 
 
         <!-- Service Start -->
-        <div class="container-xxl py-5" id="services">
+        <div class="container-xxl py-5 " style="cursor: pointer;" id="services">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <i class="fa fa-3x fa-user-tie mb-4" style="color:#DAA520;"></i>
                                 <h5>Bireysel Hukuk Danışmanlığı</h5>
                                 <p>Aile içi anlaşmazlıklarda ve miras işlemlerinde profesyonel destek veriyoruz. Tüm süreçleri hızlı bir şekilde yönetiyoruz.</p>
                             </div>
@@ -108,7 +112,7 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                                <i class="fa-solid fa-scale-balanced fa-3x text-primary mb-4"></i>
+                                <i class="fa-solid fa-scale-balanced fa-3x mb-4" style="color:#DAA520;"></i>
                                 <h5>Ceza ve Ticaret Hukuku</h5>
                                 <p>Müvekkillerimizi ceza davalarında ve ticari uyuşmazlıklarda temsil ediyoruz. Hedefimiz en iyi ve en hızlı sonucu almaktır.</p>
                             </div>
@@ -117,16 +121,16 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                                <i class="fa-solid fa-building-columns fa-3x text-primary mb-4"></i>
+                                <i class="fa-solid fa-building-columns fa-3x mb-4" style="color:#DAA520;"></i>
                                 <h5>Kurumsal Hukuk Hizmetleri</h5>
-                                <p>Şirketlere hukuki danışmanlık ve sözleşme yönetimi sağlıyoruz. İş dünyasında riskleri en aza indirmek için stratejik çözümler üretiyoruz.</p>
+                                <p>Şirketlere hukuki danışmanlık  sağlıyoruz. İş dünyasında riskleri en aza indirmek için stratejik çözümler üretiyoruz.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                               <i class="fa-solid fa-people-roof fa-3x text-primary mb-4"></i>
+                               <i class="fa-solid fa-people-roof fa-3x mb-4" style="color:#DAA520;"></i>
                                 <h5>Aile ve Miras Hukuku</h5>
                                 <p>Aile içi anlaşmazlıklarda ve miras işlemlerinde profesyonel destek veriyoruz. Tüm süreçleri sizlerle adil, hızlı ve güvenilir bir şekilde yönetiyoruz.</p>
                             </div>
@@ -138,70 +142,72 @@
         <!-- Service End -->
 
 
-        <!-- About Start -->
+        <!-- Hakkımızda -->
         <div class="container-xxl py-5" id="about">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/foto2.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/hakkimizda-foto1.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/foto3.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/hakkimizda-foto2.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/foto1.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/hakkimizda-foto3.jpg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/foto4.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/hakkimizda-foto4.jpg">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;"> Hakkımızda..</h5>
-                        <h1 class="mb-4">Güvenilir ve Deneyimli Hukuk Çözümleri</h1>
+                        <h5 class=" text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: #DAA520;"> HAKKIMIZDA</h5>
+                        <h1 class="mb-4">GÜVENİLİR VE DENEYİMLİ HUKUK ÇÖZÜMLERİ</h1>
                         <p class="mb-4">Büromuz, müvekkillerine güvenilir ve profesyonel hukuk hizmeti sunar. Bireysel ve kurumsal danışmanlıkta deneyimli ekibimizle her türlü hukuki süreci yönetiyoruz.</p>
                         <p class="mb-4">Amacımız haklarınızı korumak ve çözümleri hızlı, etkili şekilde sunmaktır. Tarafsız ve çözüm odaklı yaklaşımımızla her zaman yanınızdayız.</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">32</h1>
+                                <div class="d-flex align-items-center border-start border-5 px-3" style="border-color:#DAA520;">
+                                    <h1 class="flex-shrink-0 display-5 mb-0" data-toggle="counter-up" style="color:#DAA520;">32</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Yıllık</p>
-                                        <h6 class="text-uppercase mb-0">Hukuk Deneyimi</h6>
+                                        <p class="mb-0">YILLIK</p>
+                                        <h6 class="text-uppercase mb-0">Hukuk DENEYİMİ</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">+1050</h1>
+                                <div class="d-flex align-items-center border-start border-5 px-3" style="border-color:#DAA520;">
+                                    <h1 class="flex-shrink-0 display-5 mb-0" data-toggle="counter-up" style="color:#DAA520;">1050</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Başarılı</p>
+                                        <p class="mb-0">BAŞARILI</p>
                                         <h6 class="text-uppercase mb-0">Dava</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Daha Fazlası İçin</a>
+                        <a class="btn btn-gold py-3 px-5 mt-2" href="" style="background-color:#DAA520; color:#fff; border:none;">Daha Fazlası İÇİN<i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Hakkımızda -->
 
-        <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- Randevu -->
+        <div class="container-fluid py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
                <div class="col-md-6">
              <div class="video">
-                <img src="img/pexels-august-de-richelieu-4427431.jpg" alt="Hukuk Bürosu" class="img-fluid rounded">
+                <img src="img/ekip.jpg" alt="Hukuk Bürosu" 
+                alt="Hukuk Bürosu" 
+                class="img-fluid rounded w-100 h-100 object-fit-cover">
              </div>
                 </div>
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;">İLETİŞİM</h5>
-                        <h1 class="text-white mb-4">Size Ulaşabilmemiz İçin Lütfen Bilgilerinizi Girin</h1>
+                        <h5 class=" text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: #DAA520;">İLETİŞİM<h5>
+                        <h1 class="text-white mb-4">LÜTFEN BİLGİLERİNİZİ GİRİN</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -239,7 +245,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Gönder</button>
+                                   <button class="btn btn-gold w-100 py-3" type="submit" style="background-color:#DAA520; color:#fff; border:none;">Gönder<i class="fa-solid fa-paper-plane" style="font-size: 15px; margin-left: 5px;"></i></button>
+
                                 </div>
                             </div>
                         </form>
@@ -252,175 +259,230 @@
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     
                 </div>
             </div>
         </div>
-        <!-- Reservation Start -->
+        <!--Randevu -->
 
-
-        <!-- Team Start -->
+        <!-- Ekip -->
         <div class="container-xxl pt-5 pb-3" id="team">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;">EKİP ÜYELERİMİZ</h5>
-                    <h1 class="mb-5">Uzman Avukatlarımız</h1>
+                    
+                    <h1 class="mb-5">UZMAN AVUKATLARIMIZ</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/person1.jpg" alt="">
+                            <div class="overflow-hidden m-4">
+                                <img class="img-fluid" src="img/avukat1.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Serkan Yavuz</h5>
-                            <small>Kurucu</small>
+                            <small>KURUCU</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-instagram"></i>
+                                    </a>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/person2.jpg" alt="">
+                            <div class=" overflow-hidden m-4">
+                                <img class="img-fluid" src="img/avukat2.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Ayşe Yılmaz</h5>
-                            <small>Miras Hukuku</small>
+                            <small>MİRAS HUKUKU</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                               <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;">
+                                    <i class="fab fa-instagram"></i>
+                                    </a>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/person3.jpg" alt="">
+                            <div class=" overflow-hidden m-4">
+                                <img class="img-fluid" src="img/avukat3.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Serhat Ay</h5>
-                            <small>Ticaret Hukuku Uzmanı</small>
+                            <small>TİCARET HUKUKU UZMANI</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"> <i class="fab fa-facebook-f"></i><a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"> <i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"> <i class="fab fa-instagram"></i></a>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/person4.jpg" alt="">
+                            <div class=" overflow-hidden m-4">
+                                <img class="img-fluid" src="img/avukat4.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Suna Keskin</h5>
-                            <small>Aile Hukuku</small>
+                            <small>AİLE HUKUKU</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="" style="background-color:#DAA520; color:#fff; border:none;"><i class="fab fa-instagram"></i></a>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+        <!-- Ekip -->
+
+        <!-- Blog / Makaleler -->
+<section id="blog" class="container-xxl py-5" id="blog">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="mb-3" style="color:#0F172B;">HUKUKİ MAKALELER</h1>
+            <p>Güncel davalar ve hukuki ipuçları için blog yazılarımızı inceleyin.</p>
+        </div>
+        <div class="row g-4"s>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/blog1.jpg" class="card-img-top" alt="Blog 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Miras Hukuku ile İlgili Değişiklikler</h5>
+                        <p class="card-text">Miras hukuku ile ilgili yeni düzenlemeler ve dikkat edilmesi gereken noktalar...</p>
+                        <a href="#" class="btn btn-gradient " style="font-weight: 500;">Detaylar <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/blog2.jpg" class="card-img-top" alt="Blog 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceza Hukukunda Güncel Olan Davalar</h5>
+                        <p class="card-text">Ceza hukuku alanında son zamanlarda yaşanan önemli davaları inceleyin...</p>
+                        <a href="#" class="btn btn-gradient" style="font-weight: 500;">Detaylar <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/blog3.jpg" class="card-img-top" alt="Blog 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Kurumsal Hukukta Sözleşme Yönetimi</h5>
+                        <p class="card-text">Şirketler için sözleşme yönetimi ve riskleri minimize etme yöntemleri...</p>
+                        <a href="#" class="btn btn-gradient" style="font-weight: 500;">Detaylar <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+
+        <!-- Müvekkil Yorumları -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" style="cursor: pointer;">
             <div class="container">
                 <div class="text-center">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;"> HİZMETLERİMİZ</h5>
-                    <h1 class="mb-5">Hakkında Geri Bildirimler</h1>
+                    <h1 class="mb-5">HAKKIMIZDA GERİ BİLDİRİMLER</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <i class="fa fa-quote-left fa-2x mb-3" style="color:#DAA520;"></i>
                         <p>Hukuki sürecimde yanımda oldukları için çok teşekkür ederim.Profesyonel ve güvenilir bir ekip, her adımda bilgilendirdiler ve haklarımı korudular. Kesinlikle tavsiye ediyorum!</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/muvekkil1.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Ayşe Yılmaz</h5>
-                                <small>Müvekkil</small>
+                                <small>MÜVEKKİL</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <i class="fa fa-quote-left fa-2x mb-3" style="color:#DAA520;"></i>
                         <p>Hukuki sürecim boyunca her adımda destek aldım. Ekibin titiz ve güvenilir yaklaşımı sayesinde tüm süreç sorunsuz ilerledi. Profesyonellikleri ve ilgileri için teşekkür ederim.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/muvekkil2.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Mert Kaya</h5>
-                                <small>Müvekkil</small>
+                                <small>MÜVEKKİL</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Davamdaki tüm detayları titizlikle ele aldılar. Her aşamada bilgilendirildim ve kendimi güvende hissettim. Çözüm odaklı yaklaşımları için kesinlikle tavsiye ederim.</p>
+                        <i class="fa fa-quote-left fa-2x mb-3" style="color:#DAA520;"></i>
+                        <p>Davamdaki tüm detayları titizlikle ve bilgilendirerek ele aldılar. Her aşamada bilgilendirildim ve kendimi güvende hissettim. Çözüm odaklı yaklaşımları için kesinlikle tavsiye ederim.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/muvekkil3.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Alper Ay</h5>
-                                <small>Müvekkil</small>
+                                <small>MÜVEKKİL</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Hukuki süreç boyunca her adımda yanımda oldular. Titiz yaklaşımları sayesinde tüm işlemler sorunsuz ilerledi. Profesyonellikleri için teşekkür eder, herkese tavsiye ederim.</p>
+                        <i class="fa fa-quote-left fa-2x mb-3" style="color:#DAA520;"></i>
+                        <p>Hukuki süreç boyunca her adımda her zaman yanımda oldular. Titiz yaklaşımları sayesinde tüm işlemler sorunsuz ilerledi. Profesyonellikleri için teşekkür eder, herkese tavsiye ederim.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/muvekkil4.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Sevgi Dursun</h5>
-                                <small>Müvekkil</small>
+                                <small>MÜVEKKİL</small>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Müvekkil Yorumları -->
         
 
-        <!-- Footer Start -->
+        <!-- Footer -->
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="contact">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: #ffa500;">
-Yavuzaslan Hukuk
-</h5>
-                        <a class="btn btn-link" href="">Hakkımızda</a>
-                        <a class="btn btn-link" href="">İletişim</a>
-                        <a class="btn btn-link" href="">Randevu</a>
-                        <a class="btn btn-link" href="">Gizlilik Politikası</a>
-                        <a class="btn btn-link" href="">Şartlar ve Koşullar</a>
+            <h5 class=" text-center" style="font-family: 'Montserrat', sans-serif; font-size: 20px; color: #DAA520; font-weight: bold;">
+            YAVUZASLAN HUKUK <hr></h5>
+                        <a class="btn btn-link" href="">HAKKIMIZDA</a>
+                        <a class="btn btn-link" href="">İLETİŞİM</a>
+                        <a class="btn btn-link" href="">RANDEVU</a>
+                        <a class="btn btn-link" href="">GİZLİLİK POLİTİKASI</a>
+                        <a class="btn btn-link" href="">ŞARTLAR VE KOŞULLAR</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;">
-  İletişim
+<h5 class=" text-center" style="font-family: 'Montserrat', sans-serif; font-size: 20px; color: #DAA520; font-weight: bold;">
+  İLETİŞİM <hr>
 </h5>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>İzmir/Bayraklı</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0537 00 00</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>yavuzaslan@hukuk .com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;">
-  Çalışma Saatleri
+<h5 class=" text-center" style="font-family: 'Montserrat', sans-serif; font-size: 20px; color: #DAA520; font-weight: bold;">
+  ÇALIŞMA SAATLERİ <hr>
 </h5>
                         <h5 class="text-light fw-normal">Pazartesi - Cumartesi:</h5>
                         <p>09:00 – 17:00</p>
@@ -428,13 +490,13 @@ Yavuzaslan Hukuk
                         <p>09:00 – 15:00</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-<h5 class="section-title text-start" style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; color: orange;">
-  Bülten
+<h5 class=" text-center" style="font-family: 'Montserrat', sans-serif; font-size: 20px; color: #DAA520; font-weight: bold;">
+  BÜLTEN <hr>
 </h5>
                         <p>Hukuki gelişmelerden, güncel davalardan ve büromuzdan haberlerden haberdar olmak için e-posta bültenimize abone olun.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="E-mail">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Üye Ol</button>
+                            <button type="button" class="btn btn-gold py-2 position-absolute top-0 end-0 mt-2 me-2"  style="background-color:#DAA520; color:#fff; border:none;">  Üye Ol <i class="fa-solid fa-newspaper"></i></button>
                         </div>
                     </div>
                 </div>
@@ -448,7 +510,7 @@ Yavuzaslan Hukuk
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+        <!-- Footer  -->
         
     </div>
 
